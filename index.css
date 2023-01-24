@@ -1,0 +1,276 @@
+body{
+    font-family: "Google Sans", Roboto, arial, sans-serif;
+  overflow-x: hidden; 
+}
+.box1{
+    height: 270px;
+    width: 70%;
+    margin-left: 15rem;
+    display: flex;gap: 30px;
+    margin-top: 40px;
+}
+.box3{
+    height: 100%;
+width: 80%;
+background-color: #f2f2f2 ;
+box-shadow: 5px 10px 9px 2px #dfdede;
+
+}
+.box2{
+    height: 270px;
+    width: 70%;
+    margin-left: 15rem;
+    display: flex;
+    margin-top: 30px;
+    ;gap: 30px;
+}
+.box4{
+    height: 100%;
+    background-color: #f2f2f2 ;
+width: 25%;
+
+}
+.box-in-box{
+    height: 60%;
+}
+.box-in-box1{
+    height: 40%;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    height: 190px;
+    width: 100%;
+    
+    margin-top: 10rem;
+    gap: 1rem;
+    display: flex;
+    background-color: 
+    #626262 ;
+}
+.footera{
+    width: 100%;
+    height: 100%;
+    
+margin-left: 50px;
+}
+.nat{
+    color: orange;
+  margin-left: 10px;
+   
+}
+.checked {
+    color: #92c745;
+
+  }
+.imd{
+height: 30px;
+width: 30px;
+margin-left: 210px;
+margin-top: -1rem;
+background-color: #92c745;
+}
+.bag{
+    height: 30px;
+    width: 30px;
+}
+.price{
+font-size: 20px;
+color: orange;
+margin-left: 10px;
+margin-top: 8px;
+
+}
+.rating{
+margin-left: 10px;
+}
+.para{
+  margin-left: 10px;
+}
+.linef{
+    height: 100%;
+    background-color:
+    #7a7a7a  ;
+    width: 6px;
+}
+.footi{
+    height: 60px;
+    width: 100%;
+    margin-top: -5px;
+    background-color: 
+    #4b4b4b;
+}
+.h4{
+color: white;
+margin-top: 20px;
+}
+.p1{
+    color: white;
+    margin-top: 10px;
+}
+.lastpara{
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
+img{
+    width:100%;
+
+}
+*{ 
+    margin: 0; 
+    padding: 0; 
+  }
+  .nav{
+    height: 46px;
+    width: 100%;
+    background-color: #ff8f34;
+    position: relative;
+    
+  }
+  .nav>.nav2 {
+    display: inline;
+  }
+  .nav>.nav2>.nav3 {
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+  }
+  .nav>.navbtn{
+    display: none;
+  }
+  .nav>.all-links{
+    display: inline;
+    font-size: 18px;
+  margin-left: 250px;
+  }
+  .nav>.all-links>a{
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .nav > .all-links > a:hover {
+    background-color: #92c745;
+  }
+  .nav > #navbarmain {
+    display: none;
+  } 
+  @media (max-width:600px) {
+    .nav > .navbtn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .navbtn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .navbtn > label:hover,.nav  #navbarmain:checked ~ .navbtn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .navbtn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .all-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: rgb(131, 163, 212);
+   overflow-y: hidden;
+      left: 0px;
+    }
+    .nav > .all-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #navbarmain:not(:checked) ~ .all-links {
+      height: 0px;
+    }
+    .nav > #navbarmain:checked ~ .all-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+.featured{
+    color: #ff8f34;
+    font-size: 20px;
+ text-align: center;
+ margin-top: -10px;
+ font-family: "Google Sans", Roboto, arial, sans-serif;
+}
+.line{
+    height: 4px;
+    width: 40%;
+    background-color: #d6d6d6;
+    margin-top: 40px;
+}
+.line2{
+    height: 4px;
+    width: 40%;
+    background-color: #d6d6d6;
+margin-left: 900px;
+margin-top: -15px;
+}
+.upper-nav{
+  height: 70px;
+  width: 99.7%;
+  display: flex;
+}
+.up-nav1{
+  height: 100%;
+  width: 30%;
+}
+.up-nav2{
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.nav-text{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 2rem;
+color: #92c745;
+font-weight: 100;
+}
+.b1{
+  font-size: small;
+height: 50px;
+width: 30%;
+margin-top: 10px;
+}
+.b2{
+  font-size: small;
+height: 50px;
+width: 30%;
+margin-top: 10px;
+  
+}
+.b3{
+  font-size: small;
+height: 50px;
+width: 30%;
+margin-top: 10px;
+  
+}
+.pic-img img{
+  margin-top: 2px;
+  height: 50px;
+  width: 50px;
+}
+.pic-img2{
+  margin-top: 12px;
+  height: 40px;
+  width: 40px;
+}
